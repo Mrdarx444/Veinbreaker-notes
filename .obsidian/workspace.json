@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "8c48e4bfc87bec4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dbeb01f5695c6ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fa76925dfc314dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game play/Systems/Movement System.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Movement System"
+            }
+          },
+          {
+            "id": "815dd28c0cea1d6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To do list + Random Ideas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "To do list + Random Ideas"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cdc417bbd6a54631",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d96361051eeb24b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79907ac82f232cbd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f5e41075cbfe9f66",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f7534c5c4c56ee60",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.5
+  },
+  "right": {
+    "id": "181c4b1da4069892",
+    "type": "split",
+    "children": [
+      {
+        "id": "44bdf848c2dd1dbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "046b3efc2efe9520",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Main notes"
+            }
+          },
+          {
+            "id": "6cdfd5c17ef6bf4d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Main notes"
+            }
+          },
+          {
+            "id": "c245111009df852c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "810cefb57ce557c3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ad28b3c39d7967f2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main notes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Main notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "815dd28c0cea1d6d",
+  "lastOpenFiles": [
+    "Pitfalls.md",
+    "To do list + Random Ideas.md",
+    "Game play/Systems/Movement System.md",
+    "Game play/Systems/Combat System.md",
+    "Game play/Enemies/Watch.md",
+    "Core Concept.md",
+    "Design/Player.md",
+    "Game play/Player.md",
+    "_Assets/MDA.png",
+    "_Assets/Wall Jump Animations.mp4",
+    "Game play/Systems/Health System.md",
+    "Game play/Systems/Aim system.md",
+    "Game play/Platforming",
+    "Game play/Systems/Ability Tree System.md",
+    "Game play/Enemies",
+    "Game play/Systems/Stamina System.md",
+    "Ability.md",
+    "Story lines/Story_01_IronDistrict.md",
+    "Mechanics.md",
+    "Notes.md",
+    "_Assets/HUD Controllers V2.png",
+    "_Assets/JoyStick Chart.png",
+    "Joystick Zones.png.md",
+    "Game play/Systems/Dash System",
+    "Game play/Main.md",
+    "Game play/Claude Advice.md",
+    "Game play/ChatGPT Response.md",
+    "Claude/Movement_System_Design.md",
+    "ChatGPT Stories.md",
+    "Ideas.md",
+    "Claude/Movement_System_Tasks.md",
+    "OpenCode Plan.md",
+    "Untitled",
+    "Assets/Joystick Zones.png",
+    "Claude",
+    "Nouveau dossier",
+    "_Assets",
+    "fdfsdfds.png",
+    "Design/HUD",
+    "Untitled.canvas",
+    "Design"
+  ]
+}

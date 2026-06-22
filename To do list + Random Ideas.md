@@ -1,0 +1,19 @@
+- [x] Add Stamina System
+- [ ] Add double jump (mabye)
+- [ ] Search For Combat system design
+- [ ] joystick accessibility for mobile (Dead Zone | Size | drag sensitivity)
+- [ ] merge branches with main 
+- [ ] check point system
+- [ ] cut scenes
+- [ ] Add Parry System (with perfect timing like Hollow knight  but also with bear hands) + knock back effect on success parry
+- [ ] Counter Attack after Parry (QTE mabye or just click)
+- [ ] Redirecting projectiles using the Parry 
+- The bladed weapons can Redirect projectiles when parry (Ability Tree)
+- The Bear Hands Have Counter Attack after Parry (Ability Tree)
+- Add Shock Wave Effect + time scale + camera shake
+- [ ] Second wind system with QTE (mabye)
+- [ ] knock-back system (Focus on it to be flexable)
+- [ ] Some Ambushes from enemies like hollow knight silksong
+- [ ] grab enemies as shield hhh then throw them after they expired
+- [ ] a lot of breakable Items
+- [ ] Sharpness system for the bladed weapons to add cooldown for it and overheat system for the fire guns? (Idea from this Video Explained [Watch](https://youtu.be/NclhuUf0nfU?si=FRn3K4kOm028unmr))
