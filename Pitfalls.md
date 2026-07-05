@@ -1,5 +1,1 @@
-- [ ] How to mix between bear hands fights and bladed weapons and fire guns and Parry Mechanics?
-- [ ] Does The Parry Mechanics Works for both bear hands or bladed weapons? 
-- [ ] Is the Parry Mechanics depends on the synchronization of attacks by both the player and the enemy or Perfect Defending timing?
-- [ ] should I Add Defense options or I stick to the parry mechanism and dodge dash?
 - [ ] How does the player upgrade The [[Ability Tree System]]
