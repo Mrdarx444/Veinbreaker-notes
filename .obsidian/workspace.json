@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game play/Systems/Combat Systems/Combos.md",
+                "file": "Core Concept.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Combos"
+              "title": "Core Concept"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game play/Systems/Combat Systems/Handguns.md",
+                "file": "Game play/Systems/Combat Systems/Damage System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Handguns"
+              "title": "Damage System"
             }
           }
         ]
@@ -199,21 +199,22 @@
   },
   "active": "681ae0f2a3f69fd0",
   "lastOpenFiles": [
-    "Design/HUD/Controllers.md",
-    "Game play/Systems/Combat Systems/Combos.md",
-    "Design/Player.md",
-    "Game play/Systems/Combat Systems/Handguns.md",
+    "Combat Systems.md",
     "Core Concept.md",
+    "Pitfalls.md",
+    "To do list + Random Ideas.md",
+    "Game play/Systems/Combat Systems/Combos.md",
+    "Game play/Systems/Combat Systems/Damage System.md",
+    "Game play/Systems/Movement System.md",
+    "Game play/Systems/Combat Systems/Handguns.md",
+    "Design/HUD/Controllers.md",
+    "Design/Player.md",
     "_Assets/Animations Action Phases.png",
     "Design/Input Map.md",
     "Game play/Systems/Combat Systems/Parry.md",
-    "To do list + Random Ideas.md",
     "Claude Resoponse + my modifications.md",
-    "Combat Systems.md",
-    "Pitfalls.md",
     "Katana Zero System.md",
     "Combat system from phone.md",
-    "Game play/Systems/Movement System.md",
     "_Assets/Player Controllers.png",
     "_Assets/Samples/Fast flexable Movement (wall Jump).png",
     "_Assets/Samples/Fast flexable Movement (Wall slide).png",

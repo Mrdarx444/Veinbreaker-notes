@@ -14,7 +14,7 @@
 ## Attacks:
 ### 1) Simple Slash's Combo:
 - **Description:** Three consecutive Regular attacks:
-	1. Left swing
+	1. First swing
 	2. right swing
 	3. Middle swing
 > [!NOTE] Note
@@ -24,8 +24,8 @@
 	- `can_attack`
 	- `!combo_delay_timer.is_stopped()`
 - **Properties:**
-	- Input window `0.4s`
-	- Damage `10` points (for each).
+	- Startup damage `10` points.
+	- Input window `0.4s`.
 	- The **combo delay time** and **damage** can be reduced from [[Ability Tree System]].
 	- The player will be knocked forward for small distance with each attack. 
 	- Can be mixed with [[Handguns]] shoots.
@@ -80,3 +80,5 @@
 	- Damage `80` points.
 	- Just on Regular Enemies
 	- Knock Back little bit after throwing the Enemy.
+
+## Enemy Hit Reactions
