@@ -8,31 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "681ae0f2a3f69fd0",
+            "id": "05d72a743d5783b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Concept.md",
+                "file": "Pitfalls.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Core Concept"
+              "title": "Pitfalls"
             }
           },
           {
-            "id": "f40825a60e61544f",
+            "id": "296e509db772a273",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game play/Systems/Combat Systems/Damage System.md",
+                "file": "Pitfalls.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Damage System"
+              "title": "Pitfalls"
+            }
+          },
+          {
+            "id": "6b523ee7d1ec16ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To do list + Random Ideas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "To do list + Random Ideas"
             }
           }
         ]
@@ -197,20 +211,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "681ae0f2a3f69fd0",
+  "active": "05d72a743d5783b6",
   "lastOpenFiles": [
-    "Combat Systems.md",
-    "Core Concept.md",
-    "Pitfalls.md",
+    "GLM-2 Advice.md",
     "To do list + Random Ideas.md",
+    "Pitfalls.md",
+    "Design Decisions.md",
     "Game play/Systems/Combat Systems/Combos.md",
-    "Game play/Systems/Combat Systems/Damage System.md",
     "Game play/Systems/Movement System.md",
-    "Game play/Systems/Combat Systems/Handguns.md",
-    "Design/HUD/Controllers.md",
+    "Game play/Systems/Camera System.md",
+    "Story lines/Ideas.md",
+    "Design/Level Design.md",
+    "Game play/Untitled",
     "Design/Player.md",
+    "Design/Enemies",
+    "Architecture/Enemies/AI.md",
+    "Game play/Systems/Stamina System.md",
+    "Core Concept.md",
+    "ChatGPT Advice.md",
+    "Architecture/Aim system.md",
+    "Architecture",
+    "Game play/Systems/Controllers.md",
+    "Design/HUD/Controllers.md",
+    "Game play/Systems/Combat Systems/Damage System.md",
+    "Combat Systems.md",
+    "Game play/Systems/Combat Systems/Handguns.md",
     "_Assets/Animations Action Phases.png",
-    "Design/Input Map.md",
+    "Architecture/Input Map.md",
     "Game play/Systems/Combat Systems/Parry.md",
     "Claude Resoponse + my modifications.md",
     "Katana Zero System.md",
@@ -224,27 +251,13 @@
     "_Assets/Health bar design.png",
     "_Assets/Scoring systems.png",
     "_Assets/كيف يجعل مصممو الألعاب ألعابهم ممتعة؟ 3-42 screenshot.png",
-    "Game play/Systems/Camera System.md",
-    "Game play/Systems/Aim system.md",
     "Game play/Systems/Combat Systems",
-    "Story lines/Ideas.md",
     "_Assets/Katana Zero/New Button Showed.png",
     "_Assets/Katana Zero",
-    "Game play/Enemies/Watch.md",
-    "Game play/Player.md",
     "_Assets/Wall Jump Animations.mp4",
-    "Game play/Systems/Health System.md",
     "Game play/Platforming",
-    "Game play/Systems/Ability Tree System.md",
-    "Game play/Enemies",
-    "Game play/Systems/Stamina System.md",
-    "Ability.md",
-    "Story lines/Story_01_IronDistrict.md",
-    "Mechanics.md",
+    "Architecture/Enemies",
     "Game play/Systems/Dash System",
-    "Untitled",
-    "Claude",
-    "Nouveau dossier",
     "Untitled.canvas"
   ]
 }

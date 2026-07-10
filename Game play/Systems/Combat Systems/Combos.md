@@ -24,9 +24,8 @@
 	- `can_attack`
 	- `!combo_delay_timer.is_stopped()`
 - **Properties:**
-	- Startup damage `10` points.
 	- Input window `0.4s`.
-	- The **combo delay time** and **damage** can be reduced from [[Ability Tree System]].
+	- The **combo delay time** and **damage** can be reduced from [[Skill Tree System]].
 	- The player will be knocked forward for small distance with each attack. 
 	- Can be mixed with [[Handguns]] shoots.
 
@@ -40,9 +39,8 @@
 - **Conditions:**
 	- `can_charge_attack`
 	- `charged_attack_cooldown_timer.is_stopped()`
-	- Unlocked from [[Ability Tree System]].
+	- Unlocked from [[Skill Tree System]].
 - **Properties:**
-	- Damage `40` points.
 	- while the [[Player]] still holding `Melee Attack` Button/key the [[Player]] still had the charged attack until it release it to preform the attack.
 	- The player will be knocked forward for medium distance with each attack.
 
@@ -52,9 +50,10 @@
 - **Conditions:**
 	- `can_dash_attack`
 	- [[Player]] is in dash state.
-	- Unlocked from [[Ability Tree System]].
+	- Unlocked from [[Skill Tree System]].
 - **Properties:** 
-	- Damage `25` points
+	- It allows him to penetrate enemies without taking collision or attack damage.
+	- Animations & Effects like Katana Zero Attack (Like)
 
 ### 4) Fall Attack (`Death From Above` skill):
 - **Description:** Like **Death from Above Attack** From  **Farcry 3** (but in 2D) it Depend on the perfect timing then push him.
@@ -63,9 +62,8 @@
 	- `can_attack_on_fall`
 	- [[Player]] is in the Fall State.
 	- Special `RayCast2D` **is colliding** with Regular Enemy.
-	- Unlocked from [[Ability Tree System]].
+	- Unlocked from [[Skill Tree System]].
 - **Properties:**
-	- Damage `60` points.
 	- Just on Regular Enemies
 	- Knock Back little bit after Pushing the Enemy.
 
@@ -75,10 +73,10 @@
 - **Conditions:**
 	- `can_back_stab`
 	- The enemy should not be aware of the [[Player]] (The [[Player]] not detected).
-	- Unlocked from [[Ability Tree System]].
+	- Unlocked from [[Skill Tree System]].
 - **Properties:**
-	- Damage `80` points.
 	- Just on Regular Enemies
 	- Knock Back little bit after throwing the Enemy.
 
 ## Enemy Hit Reactions
+...

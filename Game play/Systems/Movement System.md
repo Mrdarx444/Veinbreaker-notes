@@ -1,13 +1,6 @@
-### Joystick Mechanism:
-- The **`JoyStick`** Controls The **Basic Movement** of the **[[Player]]** and The [[Aim system]] simultaneously.
-- The **`JoyStick`** is in Bottom left Corner of the screen
-#### Diagram:
-![[JoyStick Chart.png]]
-
----
-### Simple [[Controllers]]:
+### Movement [[Game play/Systems/Controllers|Controllers]] Concept:
 > **Note** 1: *The* **`JoyStick`** *is Built-in godot 4.7 feature which acts like Control button but trigger actions from Input Map*
-> Note 2: The **`JoyStick`** Has 8 **Zones**:
+> **Note 2**: The **`JoyStick`** Has 8 **Zones**:
 > 	1) Green Zones (Left/Right): Simple forward Movement
 > 	2) Red Zones (Up/down): Idle while Aiming (Up/down)
 > 	3) Blue Zones (Up Left/Up Right): Slower movement while Aiming Up (For penetrable platforms or top attack spatially for bosses)
@@ -22,7 +15,6 @@
 | Joystick (Up-left/Up-right)     | Aim Up & Move |
 | Joystick (Down-left/Down-right) | Aim Down      |
 
-
 ---
 ### Jump Mechanisms
 
@@ -31,10 +23,9 @@
 | **Coyote Timer** | Was `is_on_floor()` &<br>in Move State &<br>`!timer.is_stopped()`                         | `is_on_floor()` +<br>`coyote_time = 0.12`                   | Default                 | The [[Player]] Can jump after leaving the edge for short amount of time                       |
 | **Buffer Timer** | Was `!is_on_floor()`<br>&<br>in Fall State &<br>`!timer.is_stopped()`                     | `Jump Input` and `!is_on_floor()` +<br>`buffer_time = 0.16` | Default                 | the jump input will be stored in the air and trigger the next jump if the timer still running |
 | **Jump Cut**     | `!is_on_floor()` &<br>`velocity.y < 0` &<br>**`Jump`** Released<br>                       | Allways                                                     | Default                 | The [[Player]] Can control how high can he jump                                               |
-| **Wall Jump**    | `is_on_wall()` &<br>`can_wall_jump` &<br>Press **`Jump`** &<br>Is on Wall Slide State<br> | `is_on_floor()` \|\| <br>`is_on_wall()`                     | [[Ability Tree System]] | The [[Player]] Can Jump off the walls to overcome obstacles or to solve puzzles               |
-| **Double Jump**  | `!is_on_floor()` &<br>`velocity.y > 0` &<br>`can_double_jump`                             | `is_on_floor()` \|\|<br>`is_on_wall()`                      | [[Ability Tree System]] | The [[Player]] can do another jump in fall state only one time                                |
+| **Wall Jump**    | `is_on_wall()` &<br>`can_wall_jump` &<br>Press **`Jump`** &<br>Is on Wall Slide State<br> | `is_on_floor()` \|\| <br>`is_on_wall()`                     | [[Skill Tree System]] | The [[Player]] Can Jump off the walls to overcome obstacles or to solve puzzles               |
+| **Double Jump**  | `!is_on_floor()` &<br>`velocity.y > 0` &<br>`can_double_jump`                             | `is_on_floor()` \|\|<br>`is_on_wall()`                      | [[Skill Tree System]] | The [[Player]] can do another jump in fall state only one time                                |
 | **Forced Fall**  | Press `Jump`+<br>`Joystick Down` simultaneously while [[Player]] In the Air               | Allways                                                     | Default                 | The [[Player]] will Fall Fast In The Jump State"                                              |
-
 
 ---
 ### Dash Mechanism
@@ -44,13 +35,13 @@
 | Dash Type       | Motion input                              | Conditions                                                           | Activating States               | access                  | Effects                                                                     |
 | --------------- | ----------------------------------------- | -------------------------------------------------------------------- | ------------------------------- | ----------------------- | --------------------------------------------------------------------------- |
 | **Normal Dash** | `Dash`                                    | `can_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`         | Idle,<br>Move,<br>Jump,<br>Fall | Default                 | حركة سريعة مستقيمة<br>شبه انعدام الجاذبية فالسماء                           |
-| **Slide Dash**  | `Dash` + <br>`Aim Down`+ <br>`Move (L/R)` | `can_slide_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`   | Idle<br>Move                    | [[Ability Tree System]] | يمر تحت الأعداء يلغي ضرر الاصطدام بالاعداء                                  |
-| **Wall Dash**   | `Dash` + <br>`Move (L/R)`                 | `can_wall_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`    | WallSlide                       | [[Ability Tree System]] | يندفع من على الجدار<br>شبه انعدام الجاذبية فالسماء                          |
-| **Dodge Dash**  | `Dash`**×2**                              | `can_dodge_dash` &<br>`stamina > x` &<br>`special_cooldown_timer`    | Idle,<br>Move                   | [[Ability Tree System]] | يتفادى الضربات                                                              |
-| **Shadow Dash** | `Dash` hold for 1s                        | `can_shadow_dash` & <br>`stamina > x`  &<br>`special_cooldown_timer` | Idle,<br>Move,<br>Jump,<br>Fall | [[Ability Tree System]] | (عبارة عن تطويرة ل Normal Dash) يخترق الأعداء ويؤذيهم دون تلقي دمج الاصطدام |
+| **Slide Dash**  | `Dash` + <br>`Aim Down`+ <br>`Move (L/R)` | `can_slide_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`   | Idle<br>Move                    | [[Skill Tree System]] | يمر تحت الأعداء يلغي ضرر الاصطدام بالاعداء                                  |
+| **Wall Dash**   | `Dash` + <br>`Move (L/R)`                 | `can_wall_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`    | WallSlide                       | [[Skill Tree System]] | يندفع من على الجدار<br>شبه انعدام الجاذبية فالسماء                          |
+| **Dodge Dash**  | `Dash`**×2**                              | `can_dodge_dash` &<br>`stamina > x` &<br>`special_cooldown_timer`    | Idle,<br>Move                   | [[Skill Tree System]] | يتفادى الضربات                                                              |
+| **Shadow Dash** | `Dash` hold for 1s                        | `can_shadow_dash` & <br>`stamina > x`  &<br>`special_cooldown_timer` | Idle,<br>Move,<br>Jump,<br>Fall | [[Skill Tree System]] | (عبارة عن تطويرة ل Normal Dash) يخترق الأعداء ويؤذيهم دون تلقي دمج الاصطدام |
 
 ---
-### Wall Slide Mechanism (from [[Ability Tree System]])
+### Wall Slide Mechanism (from [[Skill Tree System]])
 - #### Conditions:
 	- `can_wall_slide`
 	- `is_on_wall()`
@@ -59,3 +50,9 @@
 	- `!is_on_floor()`
 - Movement Effect:
 	- Gravity Decreasing ratio
+
+### Fall Mechanism:
+- Max Fall Velocity
+- if player Reached max fall speed the fall will considered big fall
+	- Screen shack effect.
+	- Heavy Landing Animations.
