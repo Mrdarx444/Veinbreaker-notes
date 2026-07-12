@@ -12,6 +12,10 @@
 
 ---
 ## Attacks:
+
+> [!TODO] Input Buffering
+> - Add Input Buffering for the attacks
+
 ### 1) Simple Slash's Combo:
 - **Description:** Three consecutive Regular attacks:
 	1. First swing

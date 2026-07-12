@@ -16,3 +16,6 @@
 > - where can he spend it?
 > - what can he buy with it?
 
+
+> [!Missing] There is no healing system or button
+>
