@@ -1,10 +1,14 @@
 ## Game Main Concept:
- - لعبة `VeinBreaker` هي لعبة `2D Action-platformer Metroidvania` وهي `Mobile-First` موجهة للهواتف بشكل أساسي حيث تعتمد بشكل أساسي على مهارات الاعب فالقتال القريب والبعيد وكذلك تجاوز العقبات عبر استعمال القفز والجري والتزحلق وغيرها من الحركات, هدف اللعب هو اعطاء احساس `Overpower` + `Skill` + `Challange` + `Speed` + `Intelligence`. مع نظام حركة واستكشاف مستوحى من العاب ال Action-Platformer ال indie ونظام قتال مستوحى من Hollow knight و nine sols يدمج بين Melee Combos Combat وكذلك Long Range Weapons ك Secondary Weapon. 
+ - لعبة `VeinBreaker` هي لعبة `2D Action-platformer Metroidvania` وهي `Mobile-First` موجهة للهواتف بشكل أساسي حيث تعتمد بشكل أساسي على مهارات الاعب فالقتال القريب والبعيد وكذلك تجاوز العقبات عبر استعمال القفز والجري والتزحلق وغيرها من الحركات, حيث يمكن للاعب التقدم فاللعبة واكتساب combos و قدرات جديدة وتطويرات مختلفة من [[Skill Tree System]] . هدف اللعب هو اعطاء احساس **`Skilled`** + **`Challanged`** + **`Fast`** + **`Intelligent`**. مع نظام حركة واستكشاف مستوحى من العاب ال Action-Platformer ال indie ونظام قتال مستوحى من Hollow knight و nine sols يدمج بين Melee Combos Combat وكذلك Long Range Weapons ك Secondary Weapon. 
+- الاعب: يمتلك الاعب سلاحين Melee weapon (Close Range) وهو السلاح الأولي للاعب وهو عبارة عن 2 Blades (مثال فقط حاليا) يتميز الساح بقدرته الهجومية والدفاعية بالمدى القريب
+  اما بالنسبة لسلاح الثاني فهو ال Handgun يعتمد على الذخيرة يمتاز بقدرته الهجومية بعيدة المدى طلقة واحدة مع كل ضغطة زر أكثر محدودية من ال Melee weapon ... وكذلك يساعد في معارك ضد ال Bosses (Background Bosses), يمكن للاعب ان يصوب نحو **3 اتجاهات فقط فوق يمين يسار**
+  يمكن للاعب دمج السلاحين لصناعة combos عديدة مثال:  ضربتين بال blades وطلقة لابعاد العدو ... الخ 
 ## Game Genres:
 
-| **Genre**              | **Content**            | **priority** |
-| ---------------------- | ---------------------- | ------------ |
-| **Action-Platformer**  | Combat Focused Systems | Core         |
-| **Metroidvania**       |                        | Core         |
-| **Soulslike-inspired** |                        | Core         |
-| **Puzzels**            |                        | Minimal      |
+| **Genre**              | **Description**                                                                                                                                                                                                                                               | **priority** |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| **Action-Platformer**  | Combat Focused Systems (Melee + Handgun)<br>يسمح للاعب بتطوير طرق قتالية جديدة مع تقدمه في مسار اللعب مما وذلك لتغلب على الأعداء والزعماء وكذلك حركات جديدة وقدرات مختلفة لمساعدته على تجاوز العقبات وحل الألغاز                                              | ==Core==     |
+| **Metroidvania**       | تكون الخريطة عالم مترابط وليس مجرد مسار افقي مستقيم حيث يتسنى للاعب الاستكشاف قليلا .لا يمكن للاعب الولوج لبعض مناطق فالخريطة الى بعد حصوله على Skill upgrade او تخطيه جزء أساسيا من القصة + حيث أنه يتسنى للاعب حفظ تقدمه في اماكن معينة من الخريطة.         | ==Core==     |
+| **Soulslike-inspired** | بما أن اللعبة Mobile-First فسيكون من المحبط اعتماد نظام ال Souls بحذافيره فهذه ال Genre صارمة جدا مع الاعب لذلك اخترت فقط اقتباس ميكانيكيات مستوحات من العاب ال souls مثل ميكانيكيات المعارك (Back Stab / roll dash / Parry System) وكذلك نظام قتال ال Bosses | ==Core==     |
+| **Stealth-Optional**   | يتاح للاعب التسلل وراء الأعداء لمباغتتهم (مادام الأعداء لم يكتشفوه) أي ان نظام ال Stealth لن يكون معمقا بل سيقتصر فقط على Enemy Patrolling State.                                                                                                             | Minimal      |
+| **Puzzels**            | المقصود ب Puzzels هنا هي الغاز ال Platforming أو Secret Code search from Items أو<br>follow the electrice rope to find the liver (Like Borderlands)<br>وذلك اما لفتح ابواب أو العثور على Easter egg أو مكافئة مما يضيف لمسة شخصية على اللعبة                  | Minimal      |

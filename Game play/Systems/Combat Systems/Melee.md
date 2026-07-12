@@ -37,6 +37,11 @@
 >  - There is also ***Upward Swing*** and it is a default ability 
 >  - **Input**: Press `Melee Attack` + `Joystick UP` simultaneously
 
+> [!INFO] **Dow-ward Swing:**
+>  - There is also ***Dow-ward Swing*** and it is a default ability 
+>  - **Input**: Press `Melee Attack` + `Joystick Down` simultaneously
+>  - Add A Upward Velocity for the player like hollowknight
+
 ### 2) Charged Attack (`Charged Slash` Skill)
 - **Description:** Big Single Heavy Attack
 - **Input:** Hold  `Melee Attack` for more than `1.5s` and release
@@ -58,8 +63,7 @@
 - **Properties:** 
 	- It allows him to penetrate enemies without taking collision or attack damage.
 	- Animations & Effects like Katana Zero Attack (Like)
-
-### 4) Fall Attack (`Death From Above` skill):
+### 4) Fall Stab (`Death From Above` skill):
 - **Description:** Like **Death from Above Attack** From  **Farcry 3** (but in 2D) it Depend on the perfect timing then push him.
 - **Input:** Press `Melee Attack` + `joystick Down` simultaneously In the Fall State
 - **Conditions:**
@@ -82,5 +86,6 @@
 	- Just on Regular Enemies
 	- Knock Back little bit after throwing the Enemy.
 
-## Enemy Hit Reactions
+---
+## Enemy Hit Reactions:
 ...

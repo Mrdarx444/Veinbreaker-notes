@@ -6,14 +6,14 @@
 > 	3) Blue Zones (Up Left/Up Right): Slower movement while Aiming Up (For penetrable platforms or top attack spatially for bosses)
 > 	4) Purple Zones (Down Left/Down Right): Slower movement while Aiming Down (For penetrable platforms or air attack)
 
-| Input                           | Actions       |
-| ------------------------------- | ------------- |
-| Joystick left                   | Move Left     |
-| Joystick right                  | Move right    |
-| Joystick up                     | Aim Up        |
-| Joystick Down                   | Aim Down      |
-| Joystick (Up-left/Up-right)     | Aim Up & Move |
-| Joystick (Down-left/Down-right) | Aim Down      |
+| Input                           | Actions         |
+| ------------------------------- | --------------- |
+| Joystick left                   | Move Left       |
+| Joystick right                  | Move right      |
+| Joystick up                     | Aim Up          |
+| Joystick Down                   | Aim Down        |
+| Joystick (Up-left/Up-right)     | Aim Up & Move   |
+| Joystick (Down-left/Down-right) | Aim Down & Move |
 
 ---
 ### Jump Mechanisms
@@ -32,13 +32,13 @@
 
 > **Note**: *Use `Input Buffer` to differentiate between types of dash*
 
-| Dash Type       | Motion input                              | Conditions                                                           | Activating States               | access                  | Effects                                                                     |
-| --------------- | ----------------------------------------- | -------------------------------------------------------------------- | ------------------------------- | ----------------------- | --------------------------------------------------------------------------- |
-| **Normal Dash** | `Dash`                                    | `can_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`         | Idle,<br>Move,<br>Jump,<br>Fall | Default                 | حركة سريعة مستقيمة<br>شبه انعدام الجاذبية فالسماء                           |
-| **Slide Dash**  | `Dash` + <br>`Aim Down`+ <br>`Move (L/R)` | `can_slide_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`   | Idle<br>Move                    | [[Skill Tree System]] | يمر تحت الأعداء يلغي ضرر الاصطدام بالاعداء                                  |
-| **Wall Dash**   | `Dash` + <br>`Move (L/R)`                 | `can_wall_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`    | WallSlide                       | [[Skill Tree System]] | يندفع من على الجدار<br>شبه انعدام الجاذبية فالسماء                          |
-| **Dodge Dash**  | `Dash`**×2**                              | `can_dodge_dash` &<br>`stamina > x` &<br>`special_cooldown_timer`    | Idle,<br>Move                   | [[Skill Tree System]] | يتفادى الضربات                                                              |
-| **Shadow Dash** | `Dash` hold for 1s                        | `can_shadow_dash` & <br>`stamina > x`  &<br>`special_cooldown_timer` | Idle,<br>Move,<br>Jump,<br>Fall | [[Skill Tree System]] | (عبارة عن تطويرة ل Normal Dash) يخترق الأعداء ويؤذيهم دون تلقي دمج الاصطدام |
+| Dash Type       | Motion input                  | Conditions                                                           | Activating States               | access                | Effects                                                                     |
+| --------------- | ----------------------------- | -------------------------------------------------------------------- | ------------------------------- | --------------------- | --------------------------------------------------------------------------- |
+| **Normal Dash** | `Dash`                        | `can_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`         | Idle,<br>Move,<br>Jump,<br>Fall | Default               | حركة سريعة مستقيمة<br>شبه انعدام الجاذبية فالسماء                           |
+| **Roll Dash**   | `Dash` + <br>`Joystick Down`+ | `can_roll_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`    | Idle<br>Move                    | [[Skill Tree System]] | يمر تحت الأعداء يلغي ضرر الاصطدام بالاعداء                                  |
+| **Wall Dash**   | `Dash` + <br>`Move (L/R)`     | `can_wall_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`    | WallSlide                       | [[Skill Tree System]] | يندفع من على الجدار<br>شبه انعدام الجاذبية فالسماء                          |
+| **Dodge Dash**  | `Dash`**×2**                  | `can_dodge_dash` &<br>`stamina > x` &<br>`special_cooldown_timer`    | Idle,<br>Move                   | [[Skill Tree System]] | يتفادى الضربات<br>خطوة سريعة الى الخلف                                      |
+
 
 ---
 ### Wall Slide Mechanism (from [[Skill Tree System]])
@@ -56,3 +56,4 @@
 - if player Reached max fall speed the fall will considered big fall
 	- Screen shack effect.
 	- Heavy Landing Animations.
+	- Like Hollow knight
