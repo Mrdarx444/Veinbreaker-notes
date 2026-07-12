@@ -11,12 +11,14 @@
             "id": "7d35e750dabfe954",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Assets/MDA.png"
+                "file": "Game play/Systems/Combat Systems/Damage System.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "MDA"
+              "icon": "lucide-file",
+              "title": "Damage System"
             }
           }
         ]
@@ -181,11 +183,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "7d35e750dabfe954",
+  "active": "79907ac82f232cbd",
   "lastOpenFiles": [
-    "Game play/Systems/Movement System.md",
-    "Core Concept.md",
+    "Architecture/Damage System.md",
+    "Game play/Systems/Combat Systems/Damage System.md",
+    "Architecture/Enemies/Watch.md",
+    "Architecture/Enemies/AI.md",
     "Game play/Systems/Combat Systems/Melee.md",
+    "Game play/Systems/Movement System.md",
+    "Story lines/Ideas.md",
+    "Core Concept.md",
+    "AI Reports/Claude Report - Systems Audit and Pitfalls Solutions.md",
+    "_Assets/Comon Healing Systems.jpg",
+    "AI Reports/Claude Report - Story Concepts.md",
+    "AI Reports/Claude Report - New Systems Foundations.md",
+    "Untitled.md",
+    "AI Reports",
+    "Game play/Systems/Map System.md",
+    "_Assets/Wall Jump Animations.mp4",
+    "_Assets/MDA.png",
     "Game play/Systems/Combat Systems/Handguns.md",
     "Game play/Systems/Skill Tree System.md",
     "Design Decisions.md",
@@ -195,24 +211,14 @@
     "Pitfalls.md",
     "GLM-2 Advice.md",
     "Game play/Systems/Camera System.md",
-    "Story lines/Ideas.md",
     "Design/Level Design.md",
     "Game play/Untitled",
     "Design/Player.md",
     "Design/Enemies",
-    "Architecture/Enemies/AI.md",
     "Game play/Systems/Stamina System.md",
     "ChatGPT Advice.md",
-    "Architecture/Aim system.md",
     "Architecture",
-    "Game play/Systems/Controllers.md",
-    "Design/HUD/Controllers.md",
-    "Game play/Systems/Combat Systems/Damage System.md",
-    "Combat Systems.md",
     "_Assets/Animations Action Phases.png",
-    "Architecture/Input Map.md",
-    "Claude Resoponse + my modifications.md",
-    "Katana Zero System.md",
     "_Assets/Player Controllers.png",
     "_Assets/Samples/Fast flexable Movement (wall Jump).png",
     "_Assets/Samples/Fast flexable Movement (Wall slide).png",
@@ -221,14 +227,10 @@
     "_Assets/Damage Effects.png",
     "_Assets/Health bar design.png",
     "_Assets/Scoring systems.png",
-    "_Assets/كيف يجعل مصممو الألعاب ألعابهم ممتعة؟ 3-42 screenshot.png",
     "Game play/Systems/Combat Systems",
-    "_Assets/Katana Zero/New Button Showed.png",
     "_Assets/Katana Zero",
-    "_Assets/Wall Jump Animations.mp4",
     "Game play/Platforming",
     "Architecture/Enemies",
-    "Game play/Systems/Dash System",
     "Untitled.canvas"
   ]
 }
