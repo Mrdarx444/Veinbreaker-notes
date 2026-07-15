@@ -32,12 +32,12 @@
 
 > **Note**: *Use `Input Buffer` to differentiate between types of dash*
 
-| Dash Type       | Motion input                  | Conditions                                                           | Activating States               | access                | Effects                                                                     |
-| --------------- | ----------------------------- | -------------------------------------------------------------------- | ------------------------------- | --------------------- | --------------------------------------------------------------------------- |
-| **Normal Dash** | `Dash`                        | `can_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`         | Idle,<br>Move,<br>Jump,<br>Fall | Default               | حركة سريعة مستقيمة<br>شبه انعدام الجاذبية فالسماء                           |
-| **Roll Dash**   | `Dash` + <br>`Joystick Down`+ | `can_roll_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`    | Idle<br>Move                    | [[Skill Tree System]] | يمر تحت الأعداء يلغي ضرر الاصطدام بالاعداء                                  |
-| **Wall Dash**   | `Dash` + <br>`Move (L/R)`     | `can_wall_dash` & <br>`stamina > x` &<br>`special_cooldown_timer`    | WallSlide                       | [[Skill Tree System]] | يندفع من على الجدار<br>شبه انعدام الجاذبية فالسماء                          |
-| **Dodge Dash**  | `Dash`**×2**                  | `can_dodge_dash` &<br>`stamina > x` &<br>`special_cooldown_timer`    | Idle,<br>Move                   | [[Skill Tree System]] | يتفادى الضربات<br>خطوة سريعة الى الخلف                                      |
+| Dash Type       | Motion input                  | Conditions                                     | Activating States               | access                | Effects                                            |
+| --------------- | ----------------------------- | ---------------------------------------------- | ------------------------------- | --------------------- | -------------------------------------------------- |
+| **Normal Dash** | `Dash`                        | `can_dash` & <br>`special_cooldown_timer`      | Idle,<br>Move,<br>Jump,<br>Fall | Default               | حركة سريعة مستقيمة<br>شبه انعدام الجاذبية فالسماء  |
+| **Roll Dash**   | `Dash` + <br>`Joystick Down`+ | `can_roll_dash` & <br>`special_cooldown_timer` | Idle<br>Move                    | [[Skill Tree System]] | يمر تحت الأعداء يلغي ضرر الاصطدام بالاعداء         |
+| **Wall Dash**   | `Dash` + <br>`Move (L/R)`     | `can_wall_dash` & <br>`special_cooldown_timer` | WallSlide                       | [[Skill Tree System]] | يندفع من على الجدار<br>شبه انعدام الجاذبية فالسماء |
+| **Dodge Dash**  | `Dash`**×2**                  | `can_dodge_dash` &<br>`special_cooldown_timer` | Idle,<br>Move                   | [[Skill Tree System]] | يتفادى الضربات<br>خطوة سريعة الى الخلف             |
 
 
 ---

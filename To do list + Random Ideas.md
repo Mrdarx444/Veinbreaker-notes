@@ -18,6 +18,7 @@
 - [ ] grab enemies as shield then throw them after they expired (Enemy `Grabbed` state)
 - [ ] a lot of breakable Items
 - [ ] Tutorial System for player attached with story plot or game intro like Ultrakill ....
+- [ ] add to some bosses QTE **Finisher** attacks that goes along with the story plot (Like Sliksong)
 --------------
 ### أولوية P0 (قبل أي كود)
 1. [ ] اكتب `Ability Tree System.md` كاملاً — كل ميكانيك يعتمد عليه.

@@ -63,7 +63,7 @@
 - **Properties:** 
 	- It allows him to penetrate enemies without taking collision or attack damage.
 	- Animations & Effects like Katana Zero Attack (Like)
-### 4) Fall Stab (`Death From Above` skill):
+### 4) Fall Stab (`Death From Above` skill): ==**(Contextual Attack)**==
 - **Description:** Like **Death from Above Attack** From  **Farcry 3** (but in 2D) it Depend on the perfect timing then push him.
 - **Input:** Press `Melee Attack` + `joystick Down` simultaneously In the Fall State
 - **Conditions:**
@@ -71,11 +71,14 @@
 	- [[Player]] is in the Fall State.
 	- Special `RayCast2D` **is colliding** with Regular Enemy.
 	- Unlocked from [[Skill Tree System]].
+	- This attack has second phase, when the [[Player]] must strike a second time after a successful ***Fall Stab*** to finish the attack and inflict maximum damage. If the player doesn't attack a second time, the enemy will throw them off their back (causing the player to fall, become temporarily paralyzed, and leave them vulnerable). There are two ways to finish an attack: 
+		- **Melee Finish**: The [[Player]] presses Melee Attack again to spin the sword.
+		- **[[Handguns]] Finish**: The [[Player]] presses Handgun Attack to fire headshots.
 - **Properties:**
 	- Just on Regular Enemies
 	- Knock Back little bit after Pushing the Enemy.
 
-### 5) Back stab (`Back Stab` skill):
+### 5) Back stab (`Back Stab` skill): ==**(Contextual Attack)**==
 - **Description:** Like The **Back Stab** from **Dark souls** Stabs The Enemy then throw it.
 - **Input:** Hold `Melee Attack` for `0.7s` while in the Stabbing Range
 - **Conditions:**
