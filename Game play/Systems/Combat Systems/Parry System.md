@@ -8,8 +8,4 @@
 - stats the player can parry in it:
 	- Idle - normal
 	- Walk - normal
-- The Parry has many cases:
-	- Perfect Parry:
-	 - Imperfect Parry:
-		 - Early:
-		 - Late:
+...
