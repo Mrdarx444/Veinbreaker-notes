@@ -1,0 +1,1 @@
+- Each Hit has force with it to calc knockback and Parry stress bar

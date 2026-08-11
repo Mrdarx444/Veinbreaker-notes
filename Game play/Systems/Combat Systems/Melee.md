@@ -16,13 +16,25 @@
 > [!TODO] Input Buffering
 > - Add Input Buffering for the attacks
 
+
+
 ### 1) Simple Slash's Combo:
 - **Description:** Three consecutive Regular attacks:
 	1. First swing
 	2. right swing
 	3. Middle swing
+
 > [!NOTE] Note
 >- The Animations Will be handled later after the gameplay establishment (**This is just place holder**).
+
+> [!TODO] Attack State Descriptions
+> - The Attack state animations and movement will be different in each case:
+> 	- [[Player]] `is_on_floor()`:
+> 		- If `Joystick` **Not Dragged** the [[Player]] will stay in the place while swinging with little bit of knock-forward (movement/dragging) with each attack in the facing direction.
+> 		- If `Joystick` **Dragged** same thing but with bigger (forward movement dragging) in the dragging direction 
+> 	- [[Player]] `!is_on_floor()`:
+> 		- In the fall/jump state: the [[Player]] will swing freely while moving on the x axis like nine sols
+
 - **Input:** Press `Melee Attack`
 - **Conditions:**
 	- `can_attack`

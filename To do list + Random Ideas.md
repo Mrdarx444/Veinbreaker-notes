@@ -1,8 +1,8 @@
-- [x] Add Stamina System .md
+- [ ] grab enemies as shield then throw them after they expired (Enemy `Grabbed` state)
 - [x] Add double jump
 - [x] merge branches with main
-- [ ] Big fall landing effect ---> Camera Shaking + special landing animations ...
-- [ ] joystick accessibility for mobile (Dead Zone | Size | drag sensitivity) (to do) (In the application phase) (keep modifying values)
+- [x] Big fall landing effect ---> Camera Shaking + special landing animations ...
+- [x] joystick accessibility for mobile (Dead Zone | Size | drag sensitivity) (to do) (In the application phase) (keep modifying values)
 - [ ] check point system (to do)
 - [ ] cut scenes (to do)
 - [ ] Add Parry System (to do)
@@ -15,10 +15,17 @@
 
 - [ ] knock-back system (Focus on it to be flexible)
 - [ ] Some Ambushes from enemies like hollow knight silksong with waves as boss fight replacement (some times)
-- [ ] grab enemies as shield then throw them after they expired (Enemy `Grabbed` state)
 - [ ] a lot of breakable Items
-- [ ] Tutorial System for player attached with story plot or game intro like Ultrakill ....
+- [ ] Tutorial System for player attached with story plot or game intro like Ultrakill (Final Touches)
 - [ ] add to some bosses QTE **Finisher** attacks that goes along with the story plot (Like Sliksong)
+- [ ] Add Setting for joystick and control buttons (Final Touches)
+- [ ] Extra Buffers For Gameplay Responsiveness:
+	- Dash Buffer
+	- Attack Buffer
+	- Wall Jump Buffer
+	- Parry Buffer
+- [ ] Action Canceling
+- [ ] don't forgot to enable `HDR 2D` in the last touches
 --------------
 ### أولوية P0 (قبل أي كود)
 1. [ ] اكتب `Ability Tree System.md` كاملاً — كل ميكانيك يعتمد عليه.

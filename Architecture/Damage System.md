@@ -1,2 +1,7 @@
-- Hit/Hurt Boxes
-- Invisibility time ....
+- HitBoxes:
+	- Deals Damage 
+	- Disabled Par Default ---> Activated During the attack
+	- add ignore list (prevent hitting the same enemy twice in the same attack)
+- HurtBoxes
+	- Recive Damage
+- Invisibility time / frames ....
